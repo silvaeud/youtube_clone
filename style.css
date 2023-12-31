@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* SEÇÃO DE NAVEGAÇÃO */
+
+.navegacao{
+    height: 56px;
+    padding: 11px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.esquerda{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.direita{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.imagem_youtube{
+    height: 20px;
+    width: 90px;
+}
+
+/* SEÇÃO PRICIPAL  */
+
+.principal{
+    margin-top: 18px;
+    margin-left: 75px;
+    display: flex;
+}
+
+/* SEÇÃO TELA GRANDE */
+
+.tela_principal{
+       height: 746px;
+    width: 952px;
+    margin-right: 25px;
+}
+
+
+.tela_video{
+    margin-bottom: 16px;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.titulo_video{
+    margin-bottom: 16px;
+}
+
+.barra_imagens{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 16px 0;
+}
+
+.visualizacoes{
+    margin-bottom: 16px;
+}
+
+.visualizacoes p{
+   font-size: 14px;
+   font-weight: 700;
+}
+
+.descricao_video p{
+    width: 510px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* SEÇAO TELAS PEQUENAS  */
+
+.telas_pequenas{
+    margin-right: 16px;
+   width: 330px;
+   height: 938px;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.telas_pequenas_descricao{
+    display: flex;
+    gap: 16px;
+}
+
+.telas_pequenas h2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.telas_pequenas p{
+ font-size: 12px;   
+ font-weight: 400;
+}
+
+.texto{
+    width: 200px;
+    height: 89px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
